@@ -1,5 +1,4 @@
-
-$(function () {
+function () {
   var operation = "C"; 
   var selected_index = -1; 
   var tblPersons = localStorage.getItem("tblPersons"); 
