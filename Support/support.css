@@ -1,0 +1,190 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+,:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*Che smotrish? */
+html {  
+}
+body{	
+	/*background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_261275.jpg");
+	
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;*/
+	background-color: #476269;
+}
+.block_1{
+	background-image: url("");
+	
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.header__container{
+  	min-width: 100%;
+  	height: 50px;
+  	background-color: ;
+  	padding-top: 20px;
+}
+.header__container:last-child{
+	padding-right: 0px;
+}
+.sticky {
+  	position: fixed;
+ 	background-color: #81bddb;
+ 	transition: 3s;
+}
+
+
+.header__navigation{
+
+
+}
+.header__navbar{
+
+}
+.navigation__items{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+}
+.navigation-item{
+	margin-right: 50px;
+}
+.navigation__link{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+main{
+
+}
+.main{
+	margin: 0 auto;
+	background-color: white;
+	max-width: 900px;
+	border-radius: 20px;
+
+	border: 1px solid black;
+}
+
+.main__container{
+}
+.main__inf{
+
+}
+.main__title{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 40px;
+	color: #333333;
+	font-weight: bold;
+}
+.wrapper__input{
+	border: 2px solid #adadad;
+	margin: 50px;
+	min-width: 80%;
+	border-top: hidden;
+	border-left: hidden;
+	border-right: hidden;
+	max-width: 80%;
+}
+.wrapper-input{	
+	padding: 10px;
+
+}
+.material-icons{
+	padding-left: 20px;
+}
+.main__input{
+}
+input[type="text"] {
+    font-size:20px;
+}
+textarea{
+	min-height: 50px;
+	font-size: 20px;
+}
+.main-btn{
+	display: flex;
+	justify-content: center;
+
+}
+.main__button{
+	background-image: linear-gradient(-135deg, rgb(213, 0, 125), rgb(229, 57, 53), rgb(213, 0, 125), rgb(229, 57, 53));
+	color: white;
+	width: 300px;
+	margin: 10px;
+	font-size: 20px;
+	padding: 15px;
+	border: 1px solid #c80000;
+	border-radius: 10px;
+}
+
+.extremum-click{
+	font-weight: bold;
+
+}
+.extremum-slide{
+	display: none;
+	padding: 10px 0 0px 0;
+}
+.answer{
+	text-indent: ;
+}
+.questions__wrapper{
+	height: px;
+}
+.questions {
+	
+	max-width: 1200px;
+	border-radius: px;
+	width: 100%;
+	margin: 0 auto;
+  	display: grid;
+  	grid-template-columns: auto;
+ 	margin-bottom: 100px;
+ 	font-size: 21px;
+ 	padding: 20px;
+ 	background-color: ;
+ 	border-radius: 20px;
+ 	height: px;
+}
+
+
+.questios__item{
+	cursor: pointer;
+	color: white;
+	margin: 10px 0 10px 0;
+	padding: 10px;
+	border-bottom: hidden;
+}
+.questios__title{
+	color: white;
+	font-weight: bold;
+	margin: 0 auto;
+	font-size: 30px;
+	padding: 10px;
+}
+.line{
+	border: 1px solid #adadad;
+	border-bottom: hidden;	
+	height: 0px;
+}
+
+
+
